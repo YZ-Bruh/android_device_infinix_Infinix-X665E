@@ -1,3 +1,4 @@
+#partition_name         #fs_type                 #mountpoint                                       #flags
 /system                   erofs     system                                                   flags=backup=1;display=system;logical;slotselect;flashimg=1
 /system_ext               erofs     system_ext                                               flags=backup=1;display=system_ext;logical;slotselect;flashimg=1
 /vendor                   erofs     vendor                                                   flags=backup=1;display=vendor;logical;slotselect;flashimg=1
